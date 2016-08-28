@@ -1,3 +1,7 @@
-admin_homepage:
-    path:     /
-    defaults: { _controller: AdminBundle:Default:index }
+admin_general:
+    resource: "routing/_general.yml"
+    prefix:   /
+
+admin_manga:
+    resource: "routing/_manga.yml"
+    prefix:   /manga
